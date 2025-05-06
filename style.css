@@ -1,0 +1,36 @@
+body {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  font-family: 'Arial', sans-serif;
+  background-color: brown;
+  color: white;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px 25px; 
+}
+
+input {
+  height: 25px;
+  margin-bottom: 20px;
+  padding: 0 9px;
+}
+
+button {
+  height: 50px;
+  font-size: 15px;
+  font-weight: 700px;
+  color: white; 
+  border: 5px solid black;
+  text-transform: uppercase;
+  background: green;
+  cursor: pointer;
+}

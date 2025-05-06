@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+  <div>
+    <h1><em>Calculadora IMC</em></h1>
+
+    <h1>calculadora</h1>
+    
+    <label for="altura">Digite sua altura</label>
+    <input type="number" id="altura">
+<br>
+    <label for="peso">Digite Seu peso</label>
+    <input type="number" id="peso">
+<br>
+    <button id="calcular">Calcular</button>
+  </div>
+
+<script>
+// var = informação que você vai armazenar na memoria do computador
+
+  var calcular = document.getElementById("calcular")
+
+  calcular.addEventListener("click", () => {
+
+//obter altura
+  var altura = +document.getElementById("altura").value;
+
+//obter peso
+var peso = +document.getElementById("peso").value;
+
+//calcular o IMC, utilitzando altura e peso informados
+
+var imc = peso / (altura * altura);
+
+//Com o IMC calculado, encontrar a situação do paciente
+var situacao ="";
+//abaixo de 17 entao é muito abaixo do peso 
+if (imc < 17) 
+    situacao = "Muito abaixo do peso";
+  
+//entre 17 e 18,49 é abaixo do peso
+else if (imc >= 17 && imc <= 18.49) 
+    situacao = "Abaixo do peso";
+  
+//entre 18,5 e 24,99 é peso normal
+else if (imc >= 18.5 && imc <= 24.99) 
+    situacao = "Peso normal";
+
+    // entre 25 e 29,99 é acima do peso
+else if (imc >= 25 && imc <= 29.99) 
+  situacao = "Acima do peso";
+
+  // entre 30 e 34,99 é obesidade grau 1
+else if (imc >= 30 && imc <= 34.99) 
+    situacao = "Obesidade grau 1";
+
+    // entre 35 e 39,99 é obesidade grau 2   
+else if (imc >= 35 && imc <= 39.99) 
+        situacao = "Obesidade grau 2";
+
+        // acima de 40 é obesidade grau 3
+else if (imc >= 40) 
+            situacao = "Obesidade grau 3";
+        
+    //caso o imc não se encaixe em nenhuma das opções acima, exibir uma mensagem de erro
+else 
+        situacao = "Erro ao calcular o IMC";
+    
+
+    //exibir situacao do paciente
+    alert (situacao);
+  }); 
+</script>
+
+</body>
+</html> 
