@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="16.0438mm" height="5.9366mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1604.38 593.66"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:none}
+    .fil0 {fill:black}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M1572.35 229.17c-188.13,80.05 -712.3,0.02 -1549.54,-213.78 -6.59,89.19 -11.81,267.16 12.05,348.65 255.3,66.13 1375.58,356.68 1536.31,141.54 18.06,-148.16 0.61,-266.31 1.18,-276.41z"/>
+   </clipPath>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M1572.35 229.17c-188.13,80.05 -712.3,0.02 -1549.54,-213.78 -6.59,89.19 -11.81,267.16 12.05,348.65 255.3,66.13 1375.58,356.68 1536.31,141.54 18.06,-148.16 0.61,-266.31 1.18,-276.41z"/>
+  <g style="clip-path:url(#id0)">
+   <g id="_1578548811312">
+    <image id="manequim_costas.png" transform="matrix(-0.869838 0.123011 0.124197 0.861532 1756.02 -730.532)" x="0" y="0" width="2379.13" height="1642.54" xlink:href="punhoesquerdo_Images\punhoesquerdo_ImgID1.png"/>
+   </g>
+  </g>
+  <path class="fil1" d="M1572.35 229.17c-188.13,80.05 -712.3,0.02 -1549.54,-213.78 -6.59,89.19 -11.81,267.16 12.05,348.65 255.3,66.13 1375.58,356.68 1536.31,141.54 18.06,-148.16 0.61,-266.31 1.18,-276.41z"/>
+ </g>
+</svg>
